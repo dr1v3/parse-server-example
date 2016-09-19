@@ -14,8 +14,8 @@ if (!databaseUri) {
 var api = new ParseServer({
   databaseURI: databaseUri || 'mongodb://localhost:27017/emsfind',
   cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
-  appId: process.env.APP_ID || '4hmbv0B38u8tf7LbiD6CfZm8PogcfuIgWQw4dm6V',
-  masterKey: process.env.MASTER_KEY || 'dGwu8i63F3b3aPTnoJ1D3WFYm6iSu8ArgYJZMfCp', //Add your master key here. Keep it secret!
+  appId: process.env.APP_ID || '***REMOVED***',
+  masterKey: process.env.MASTER_KEY || '***REMOVED***', //Add your master key here. Keep it secret!
   fileKey: process.env.FILE_KEY || '', // Add the file key to provide access to files already hosted on Parse
   serverURL: process.env.SERVER_URL || 'http://localhost:1337/parse',  // Don't forget to change to https if needed
   liveQuery: {
@@ -23,8 +23,8 @@ var api = new ParseServer({
   },
   push: {
     android: {
-      senderId: '944041523763', // The Sender ID of GCM
-      apiKey: 'AIzaSyAD1KgLGVDqpPW2llSJl4ymUOkAH7ZM3MI' // The Server API Key of GCM
+      senderId: '***REMOVED***', // The Sender ID of GCM
+      apiKey: '***REMOVED***' // The Server API Key of GCM
     },
     ios: [
       {
@@ -41,14 +41,14 @@ var api = new ParseServer({
   },
   oauth: {
    twitter: {
-     consumer_key: "BP3dLcZbMdR3Rt6nMafm3Rvbj", // REQUIRED
-     consumer_secret: "vfrgKLPKYNmBEskgedieoPB9P609VHnR3sXV3Rjgycbheabpy7" // REQUIRED
+     consumer_key: "***REMOVED***", // REQUIRED
+     consumer_secret: "***REMOVED***" // REQUIRED
    },
    facebook: {
-     appIds: "984811911596902"
+     appIds: "***REMOVED***"
    }
   },
-  clientKey: 's60hMEKTW2bBu5p0vuMIIiLysU4zyU9vxfmT79PX',
+  clientKey: '***REMOVED***',
   verbose: false
 });
 // Client-keys like the javascript key or the .NET key are not necessary with parse-server
