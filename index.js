@@ -24,7 +24,7 @@ var api = new ParseServer({
   push: {
     android: {
       senderId: '944041523763', // The Sender ID of GCM
-      apiKey: 'AIzaSyA4bYnKSdEFYb63C0hfehJnbNlHDttI-RA' // The Server API Key of GCM
+      apiKey: 'AIzaSyAD1KgLGVDqpPW2llSJl4ymUOkAH7ZM3MI' // The Server API Key of GCM
     },
     ios: [
       {
