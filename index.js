@@ -23,32 +23,32 @@ var api = new ParseServer({
   },
   push: {
     android: {
-      senderId: '***REMOVED***', // The Sender ID of GCM
-      apiKey: '***REMOVED***' // The Server API Key of GCM
+      senderId: '944041523763', // The Sender ID of GCM
+      apiKey: 'AIzaSyAD1KgLGVDqpPW2llSJl4ymUOkAH7ZM3MI' // The Server API Key of GCM
     },
     ios: [
       {
         pfx: __dirname + '/keys/CertificatesDev.p12', // Dev PFX or P12
-        bundleId: '***REMOVED***',
+        bundleId: 'com.emsfind.app',
         production: false // Dev
       },
       {
         pfx: __dirname + '/keys/CertificatesProd.p12', // Prod PFX or P12
-        bundleId: '***REMOVED***',  
+        bundleId: 'com.emsfind.app',  
         production: true // Prod
       }
     ]
   },
   oauth: {
    twitter: {
-     consumer_key: "***REMOVED***", // REQUIRED
-     consumer_secret: "***REMOVED***" // REQUIRED
+     consumer_key: "BP3dLcZbMdR3Rt6nMafm3Rvbj", // REQUIRED
+     consumer_secret: "vfrgKLPKYNmBEskgedieoPB9P609VHnR3sXV3Rjgycbheabpy7" // REQUIRED
    },
    facebook: {
-     appIds: "***REMOVED***"
+     appIds: "984811911596902"
    }
   },
-  clientKey: '***REMOVED***',
+  clientKey: 's60hMEKTW2bBu5p0vuMIIiLysU4zyU9vxfmT79PX',
   verbose: false
 });
 // Client-keys like the javascript key or the .NET key are not necessary with parse-server
