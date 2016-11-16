@@ -12,7 +12,7 @@
     "express": "~4.11.x",
     "kerberos": "~0.0.x",
     "parse": "~1.8.0",
-    "parse-server": "https://github.com/dr1v3/parse-server/tarball/40205b77dae6fc6a665a847c8bb8b320f1d2c380"
+    "parse-server": "https://github.com/dr1v3/parse-server/tarball/f56707810700315ea911b527d1d2a69c274964b6"
   },
   "scripts": {
     "start": "node index.js"
