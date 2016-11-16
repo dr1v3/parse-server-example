@@ -1,4 +1,6 @@
 .idea/**
+.git/**
+dump/**
 emsfind-server.zip
 # Logs
 logs
